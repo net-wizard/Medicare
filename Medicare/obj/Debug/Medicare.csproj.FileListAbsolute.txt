@@ -1,0 +1,54 @@
+c:\users\henrry parkker\documents\visual studio 2013\Projects\Medicare\Medicare\bin\Medicare.dll.config
+c:\users\henrry parkker\documents\visual studio 2013\Projects\Medicare\Medicare\bin\Medicare.dll
+c:\users\henrry parkker\documents\visual studio 2013\Projects\Medicare\Medicare\bin\Medicare.pdb
+c:\users\henrry parkker\documents\visual studio 2013\Projects\Medicare\Medicare\obj\Debug\Medicare.csprojResolveAssemblyReference.cache
+c:\users\henrry parkker\documents\visual studio 2013\Projects\Medicare\Medicare\obj\Debug\Medicare.dll
+c:\users\henrry parkker\documents\visual studio 2013\Projects\Medicare\Medicare\obj\Debug\Medicare.pdb
+C:\Users\Henrry Parkker\Desktop\Medicare\Medicare\bin\Medicare.dll.config
+C:\Users\Henrry Parkker\Desktop\Medicare\Medicare\bin\Medicare.dll
+C:\Users\Henrry Parkker\Desktop\Medicare\Medicare\bin\Medicare.pdb
+C:\Users\Henrry Parkker\Desktop\Medicare\Medicare\obj\Debug\Medicare.csprojResolveAssemblyReference.cache
+C:\Users\Henrry Parkker\Desktop\Medicare\Medicare\obj\Debug\Medicare.dll
+C:\Users\Henrry Parkker\Desktop\Medicare\Medicare\obj\Debug\Medicare.pdb
+D:\Project\Medicare\Medicare\bin\Medicare.dll.config
+D:\Project\Medicare\Medicare\bin\Medicare.dll
+D:\Project\Medicare\Medicare\bin\Medicare.pdb
+D:\Project\Medicare\Medicare\obj\Debug\Medicare.csprojResolveAssemblyReference.cache
+D:\Project\Medicare\Medicare\obj\Debug\Medicare.dll
+D:\Project\Medicare\Medicare\obj\Debug\Medicare.pdb
+F:\Medicare\Medicare\bin\Medicare.dll.config
+F:\Medicare\Medicare\bin\Medicare.dll
+F:\Medicare\Medicare\bin\Medicare.pdb
+F:\Medicare\Medicare\obj\Debug\Medicare.csprojResolveAssemblyReference.cache
+F:\Medicare\Medicare\obj\Debug\Medicare.dll
+F:\Medicare\Medicare\obj\Debug\Medicare.pdb
+F:\a\Medicare\Medicare\bin\Medicare.dll.config
+F:\a\Medicare\Medicare\bin\Medicare.dll
+F:\a\Medicare\Medicare\bin\Medicare.pdb
+F:\a\Medicare\Medicare\obj\Debug\Medicare.csprojResolveAssemblyReference.cache
+F:\a\Medicare\Medicare\obj\Debug\Medicare.dll
+F:\a\Medicare\Medicare\obj\Debug\Medicare.pdb
+F:\a\Study\Medicare\Medicare\bin\Medicare.dll.config
+F:\a\Study\Medicare\Medicare\bin\Medicare.dll
+F:\a\Study\Medicare\Medicare\bin\Medicare.pdb
+F:\a\Study\Medicare\Medicare\obj\Debug\Medicare.csprojResolveAssemblyReference.cache
+F:\a\Study\Medicare\Medicare\obj\Debug\Medicare.dll
+F:\a\Study\Medicare\Medicare\obj\Debug\Medicare.pdb
+F:\a\Study\TE\Medicare\Medicare\obj\Debug\Medicare.csprojResolveAssemblyReference.cache
+F:\a\Study\TE\Medicare\Medicare\obj\Debug\Medicare.dll
+F:\a\Study\TE\Medicare\Medicare\bin\Medicare.dll.config
+F:\a\Study\TE\Medicare\Medicare\bin\Medicare.dll
+F:\a\Study\TE\Medicare\Medicare\bin\Medicare.pdb
+F:\a\Study\TE\Medicare\Medicare\obj\Debug\Medicare.pdb
+E:\a\Study\TE\Medicare\Medicare\bin\Medicare.dll.config
+E:\a\Study\TE\Medicare\Medicare\bin\Medicare.dll
+E:\a\Study\TE\Medicare\Medicare\bin\Medicare.pdb
+E:\a\Study\TE\Medicare\Medicare\obj\Debug\Medicare.csprojResolveAssemblyReference.cache
+E:\a\Study\TE\Medicare\Medicare\obj\Debug\Medicare.dll
+E:\a\Study\TE\Medicare\Medicare\obj\Debug\Medicare.pdb
+F:\a\Study\TE\Project\Medicare\Medicare\bin\Medicare.dll.config
+F:\a\Study\TE\Project\Medicare\Medicare\bin\Medicare.dll
+F:\a\Study\TE\Project\Medicare\Medicare\bin\Medicare.pdb
+F:\a\Study\TE\Project\Medicare\Medicare\obj\Debug\Medicare.csprojResolveAssemblyReference.cache
+F:\a\Study\TE\Project\Medicare\Medicare\obj\Debug\Medicare.dll
+F:\a\Study\TE\Project\Medicare\Medicare\obj\Debug\Medicare.pdb

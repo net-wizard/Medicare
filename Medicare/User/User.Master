@@ -1,0 +1,372 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="User.master.cs" Inherits="Medicare.User.User" %>
+
+
+<!doctype html>
+
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+
+    <asp:ContentPlaceHolder ID="a1" runat="server">
+
+
+
+    </asp:ContentPlaceHolder>
+   
+    
+    <meta charset='utf-8'>
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body{
+            background: url(images/top-shadow.jpg);
+        }
+    </style>
+  
+   
+   <title>Medicare</title>
+</head>
+
+
+<body>
+<form id="f1" runat="server">
+
+    <div><style scoped >
+   	
+   	@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+@charset "UTF-8";
+/* Base Styles */
+
+
+
+
+.left, .alignleft { float:left; display:inline; }
+.right, .alignright { float:right; display:inline; }
+
+
+#cssmenu ul,
+#cssmenu li,
+#cssmenu a {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  line-height: 1;
+  font-family: 'Lato', sans-serif;
+}
+#cssmenu {
+  border: 1px solid #133e40;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  width: auto;
+}
+#cssmenu ul {
+  zoom: 1;
+  background: #36b0b6;
+  background: -moz-linear-gradient(top, #36b0b6 0%, #2a8a8f 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #36b0b6), color-stop(100%, #2a8a8f));
+  background: -webkit-linear-gradient(top, #36b0b6 0%, #2a8a8f 100%);
+  background: -o-linear-gradient(top, #36b0b6 0%, #2a8a8f 100%);
+  background: -ms-linear-gradient(top, #36b0b6 0%, #2a8a8f 100%);
+  background: linear-gradient(top, #36b0b6 0%, #2a8a8f 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='@top-color', endColorstr='@bottom-color', GradientType=0);
+  padding: 5px 10px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+}
+#cssmenu ul:before {
+  content: '';
+  display: block;
+}
+#cssmenu ul:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+#cssmenu li {
+  float: left;
+  margin: 0 5px 0 0;
+  border: 1px solid transparent;
+}
+#cssmenu li a {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  padding: 8px 15px 9px 15px;
+  display: block;
+  text-decoration: none;
+  color: #ffffff;
+  border: 1px solid transparent;
+  font-size: 16px;
+}
+#cssmenu li:hover {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  border: 1px solid #36b0b6;
+}
+#cssmenu li a:hover  {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  
+  background: #1e6468;
+  border: 1px solid #133e40;
+  -moz-box-shadow: inset 0 5px 10px #133e40;
+  -webkit-box-shadow: inset 0 5px 10px #133e40;
+  box-shadow: inset 0 5px 10px #133e40;
+}
+ul li ul  {
+    display:none;
+}
+ul li:hover ul {
+    display:block;
+}
+ul li:hover ul li {
+    display:block;
+}
+
+
+#footer a{ color:#7b7b7b; text-decoration: none;}
+#footer a:hover{ color:#000;}
+
+
+         #content {
+             height: 411px;
+             margin-left: 0px;
+         }
+         
+
+   </style>
+
+<div id='cssmenu'>
+
+     
+<ul>
+   <li ><a href="Home.aspx"><span>Home</span></a></li>
+   <li>
+       <a href="Products.aspx"><span>Products</span></a>
+       <ul>
+           <li><a href="Prescribed.aspx">Prescribed</a></li><br />
+           <li><a href="NonPrescribed.aspx">Non Precribed</a></li><br />
+           <li><a href="General.aspx">General</a></li><br />
+           <li><a href="Aurvedik.aspx">Aurvedik</a></li>
+       </ul></li>
+   
+   <li class='last'><a href="Contact.aspx"><span>Contact</span></a></li>
+    
+    
+</ul>
+   
+</div>
+        </div>
+    <div class="searchbox" id="search-box">
+        <style scoped>
+            .searchbox{
+                width:100%;
+            }
+            .search{
+                margin:0px;
+                padding:5px 5px;
+                font-family: arial,helvetica,sans-serif;
+        		font-size: 14px;
+        		border: 1px solid #0076a3;
+        		border-right: 0;
+        		border-top-left-radius: 5px 5px;
+        		border-bottom-left-radius: 5px 5px;
+        		font-style: italic;
+        		height: 33px;
+                width:300px;
+            }
+            .button{
+                padding: 5px 5px;
+        		font-family: arial,helvetica,sans-serif;
+        		font-size: 14px;
+        		text-shadow: 0 0 1px #000;
+        		cursor: pointer;
+        		text-align: center;
+        		color: #fff;
+        		border-right: 0;
+        		background: linear-gradient(#00adee,#0078a5);
+        		border-top-right-radius: 5px 5px;
+        		border-bottom-right-radius: 5px 5px;
+        		position: absolute;
+        		height: 45px;
+                width: 78px;
+        		border: 1px solid #0076a3;
+        	
+            }
+            .button:hover{
+        		background: linear-gradient(#0095cc,#00678e);
+        	}
+        	.search:focus,.button:focus{
+        		outline: none;
+        	}
+            	#search-box{
+        		text-align: center;
+        		margin-top: 15px;
+        		margin-left: auto;
+        	}
+        </style>
+        <asp:TextBox CssClass="search" ID="srch" placeholder="search..."  runat="server"></asp:TextBox>
+        <input type="button" id="butt5" class="button"  value="Search"  onclick="search()" />
+    </div>
+
+
+<div class="pose">
+    <style scoped>
+         	
+   	    @import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+@charset "UTF-8";
+
+        .butt{
+            
+            border-style: none;
+            border-color: inherit;
+            border-width: 0;
+            position:fixed;
+            top: 3%;
+            left: 92%;
+            font-family: 'Lato', sans-serif;
+            border-radius:9px;
+            width: 77px;
+            color: #ffffff;
+               
+
+
+                background: #36b0b6;
+  background: -moz-linear-gradient(top, #36b0b6 0%, #2a8a8f 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #36b0b6), color-stop(100%, #2a8a8f));
+  background: -webkit-linear-gradient(top, #36b0b6 0%, #2a8a8f 100%);
+  background: -o-linear-gradient(top, #36b0b6 0%, #2a8a8f 100%);
+  background: -ms-linear-gradient(top, #36b0b6 0%, #2a8a8f 100%);
+  background: #36b0b6;
+            filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='@top-color', endColorstr='@bottom-color', GradientType=0);
+
+
+            -webkit-border-radius: 5px;
+            -moz-border-radius: 5px;
+            -ms-border-radius: 5px;
+            -o-border-radius: 5px;
+            border-radius: 5px;
+
+        }
+        #Butt2{
+            left:86%;
+        }
+         #Butt3{
+            left:80%;
+            
+        }
+        .butt:hover {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  border: 1px solid #36b0b6;
+}
+        .butt:hover  {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  
+  background: #1e6468;
+  border: 1px solid #133e40;
+  -moz-box-shadow: inset 0 5px 10px #133e40;
+  -webkit-box-shadow: inset 0 5px 10px #133e40;
+  box-shadow: inset 0 5px 10px #133e40;
+}
+
+    </style>
+    <asp:Button ID="Butt" runat="server" formnovalidate  Text="Login" OnClick="Butt_Click" CssClass="butt" />
+   
+   <asp:Button ID="Butt1" runat="server" formnovalidate Text="Logout" OnClick="Butt1_Click" CssClass="butt" />
+    <br />
+    
+   
+</div>
+
+    
+<div id="cont">
+
+<asp:ContentPlaceHolder ID="c1" runat="server">
+
+
+</asp:ContentPlaceHolder>
+   
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ <!-- Footer -->
+    <div class="footer">
+        <style scoped>
+         
+            .footer {
+    border-top: 1px solid #cecece;
+    margin-top: 700px;
+    padding: 15px 0 30px 0;
+    color: navy;
+    font-size: 13px;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+
+        </style>
+  <div  id="footer">
+    <p class="left"> 
+        <a href="Home.aspx">Home</a>
+        <span>|</span>
+        <a href="../Admin/Adminlogin.aspx">Log In for Admin</a>
+        <span>|</span>
+        <a href="Login.aspx"><span>Log In for User</span></a>
+        <span>|</span>
+        <a href="Contact.aspx">Contact</a>
+
+    </p>
+    <p class="right"> &copy; 2018 Medicare. Design by Shubham Thorat.</p>
+  </div>
+        </div>
+  <!-- End Footer -->
+</form>
+
+<script type="text/javascript">
+
+    function search() {
+        window.location = "SearchResult.aspx?search=" + document.getElementById("srch").value;
+    }
+</script>
+
+
+
+ 
+
+        </body>
+</html>
